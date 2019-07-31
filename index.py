@@ -8,6 +8,6 @@ n=int(input())
 l=list(map(int,input().split()))
 k=ind(l)
 if len(k)==0:
-	print("'-1'")
+	print("-1")
 else:
 	print(*k)
